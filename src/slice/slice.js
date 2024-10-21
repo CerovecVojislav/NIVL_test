@@ -7,7 +7,7 @@ export const displayTextSlice = createSlice({
     },
     reducers: {
         changeValue: (state,actions) => {
-            state.value = action.payload; 
+            state.value = actions.payload; 
         },
     },
 });
