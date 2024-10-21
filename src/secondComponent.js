@@ -9,7 +9,10 @@ export default function MainComponent(){
         <>
         <h2>{displayText.value}</h2>
         <button onClick={() => dispatch(changeValue("Back to default."))}>Default button</button>
-
+        <h1>{displayText.value}</h1>
+        <p>{displayText.value}</p>
+        <span>{displayText.value}</span>
+        <footer>{displayText.value}</footer>
         </>
     )
 };
